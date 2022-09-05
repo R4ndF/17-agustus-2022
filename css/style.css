@@ -1,0 +1,305 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body {
+    background-image: url(../img/bendera.jpg);
+}
+
+.first {
+    margin-top: 10px;
+    float: right;
+    width: 90px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.container {
+    width: 850px;
+    height: auto;
+    margin: auto;
+    background-color: beige;
+    padding-right: 13px;
+    padding-left: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    padding-left: 30px;
+    text-align: center; 
+    padding-top: 25px;
+    font-size: 35px;
+    font-family: 'poppins';
+    padding-bottom: 50px;
+    color: rgb(134, 40, 40);
+}
+
+.main {
+    border-top: solid 3px rgb(155, 33, 33);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: rgb(155, 33, 33) solid 3px ;
+}
+
+.gambar1 {  
+    width: 350px;
+    height: auto;
+    float: right;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    padding-left: 10px;
+}
+
+/*content*/
+
+.content {
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'poppins';
+    color: rgb(134, 40, 40);
+    padding-bottom: 35px;
+}
+
+.gambar2 {
+    width: 350px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.khusus {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.main1 {
+    border-bottom: 3px solid rgb(155, 33, 33) ;
+    padding-bottom: 10px;
+}
+
+.main2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(155, 33, 33);
+}
+
+.gambar3 {
+    width: 350px;
+    height: auto;
+    float: right;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+
+.khusus2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+    padding-bottom: 10px;
+    padding-left: 10px  ;
+}
+
+.main3 {
+    padding-top: 15px;
+    padding-bottom: 60px;
+    border-bottom: 3px solid rgb(155, 33, 33);
+}
+
+.khusus3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.gambar4 {
+    width: auto;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.main4 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(155, 33, 33);
+}
+
+.gambar5 {
+    width: 350px;
+    height: auto;
+    float: right;   
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.khusus4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.main5 {
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(155, 33, 33);
+}
+
+.gambar6 {
+    width: 350px;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+
+.khusus5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+
+.main6 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 3px solid rgb(155, 33, 33);
+}
+
+.gambar7 {
+    width: 350px;
+    height: auto;
+    float: right;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.khusus6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 23px;
+    padding-left: 10px;
+}
+
+.main7 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 3px solid rgb(155, 33, 33);
+}
+
+.khusus7 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 23px;
+    padding-left: 10px;
+}
+
+.main8 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 3px solid rgb(155, 33, 33);
+}
+
+.khusus8 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 10px;
+    padding-right: 10px; }
+
+.main9 {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 3px solid rgb(155, 33, 33);
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
